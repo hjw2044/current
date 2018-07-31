@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/*公共样式*/
+.safe{
+    width: 1200px;
+    height: 100%;
+    /*background: pink;*/
+    margin: 0 auto;
+}
+/*清楚浮动*/
+.safe::after{content: "";display: block;clear: both;}
+.left{float: left;}
+.right{float: right;}
+
+
+/*banner样式开始*/
+.banner{width: 100%;}
+/*banner样式开始*/
+
+
+/*标题头部1样式开始*/
+.headtt1{padding-top: 26px;}
+.headtt1>.safe{height: 112px;position: relative;}
+.headtp{position: absolute;left: 100px;bottom: 0;}
+/*标题头部1样式结束*/
+
+
+/*标题内容1样式开始*/
+.floor-1{margin-bottom: 53px;}
+.floor-1>.safe{height: 510px;position: relative;font-size: 24px;color: #ffec1a;}
+.floor-1k1{height: 100%;width: 1000px;background: #7a5ae3;position: absolute;left: 100px;bottom: 0;border-radius: 0 0 12px 12px;}
+.floor-1k2{width: 950px;height: 468px;background: #6345cb;border-radius: 12px;position: absolute;left: 25px;top: 12px;box-shadow: 0 2px 2px 0 #553bc4 inset, 0 -2px 2px 0 #8569e7 inset;}
+.floor-1 p{width: 878px;color: #efeaff;letter-spacing: 1px;position: absolute;left: 50px;top: 35px;}
+.money{position: absolute;left: 68px;top: 241px;}
+.clock{position: absolute;left: 406px;top: 201px;}
+.ring{position: absolute;left: 717px;top: 221px;}
+.floor-1tex1{position: absolute;left: 100px;top: 403px;}
+.floor-1tex2{position: absolute;left: 427px;top: 403px;}
+.floor-1tex3{position: absolute;left: 738px;top: 403px;}
+/*标题内容1样式结束*/
+
+
+
+/*标题内容2样式开始*/
+.floor-2{height: 483px;}
+.floor-2>.safe{position: relative;}
+.floor-2k1{background: #7a5ae3;height: 100%;width: 1000px;position: absolute;left: 100px;bottom: 0;}
+.floor-2k2{border-bottom: 4px dashed #826ad5;width: 950px;height: 471px;background: #6345cb;border-radius: 12px 12px 0 0;position: absolute;left: 25px;top: 12px;box-shadow: 0 2px 2px 0 #553bc4 inset;}
+.font{position: absolute;left: 50px;top: 39px;}
+.floor-2tex1{color: #efeaff;font-size: 20px;position: absolute;left: 50px;top: 75px;}
+.boy{position: absolute;left: 46px;top: 226px;}
+.boy{position: absolute;left: 46px;top: 226px;}
+.chart{position: absolute;left: 564px;top: 162px;}
+/*标题头部2样式结束*/
+
+
+/*第2点开始*/
+.floor-3{height: 448px;}
+.floor-3>.safe{position: relative;}
+.floor-3k1{background: #7a5ae3;height: 100%;width: 1000px;position: absolute;left: 100px;bottom: 0;}
+.floor-3k2{border-bottom: 4px dashed #826ad5;width: 950px;height: 448px;background: #6345cb;position: absolute;left: 25px;top: 0;box-shadow: 0 2px 2px 0 #553bc4 inset;}
+.font2{position: absolute;left: 49px;top: 40px;}
+.floor-3tex1{color: #efeaff;font-size: 20px;position: absolute;left: 47px;top: 76px;}
+.wallet{position: absolute;left: 91px;top: 148px;}
+.arrow1{position: absolute;left: 281px;top: 259px;}
+.arrow2{position: absolute;left: 596px;top: 259px;}
+.box{position: absolute;left: 398px;top: 170px;}
+.men{position: absolute;left: 666px;top: 167px;}
+.floor-3k2>span{font-size: 24px;color: #ffffff;}
+.floor-3tex{color: #fffb5d;}
+.floor-3tex2{position: absolute;left: 70px;top: 374px;}
+.floor-3tex3{position: absolute;left: 424px;top: 374px;}
+.floor-3tex4{position: absolute;left: 724px;top: 374px;}
+/*第2点结束*/
+
+
+/*第3点开始*/
+.floor-4{height: 718px;}
+.floor-4>.safe{position: relative;}
+.floor-4k1{background: #7a5ae3;height: 100%;width: 1000px;position: absolute;left: 100px;bottom: 0;}
+.floor-4k2{border-bottom: 4px dashed #826ad5;width: 950px;height: 718px;background: #6345cb;position: absolute;left: 25px;top: 0;box-shadow: 0 2px 2px 0 #553bc4 inset;}
+.font3{position: absolute;left: 48px;top: 51px;}
+.floor-4tex1{font-size: 20px;color: #efeaff;position: absolute;left: 47px;top: 87px;}
+.excuse{position: absolute;left: 293px;top: 169px;}
+.floor-4tex2{width: 290px;height: 60px;font-size: 36px;background: #fef202;border-radius: 7px;border-style: none;color: #f65c26;position: absolute;left: 332px;bottom: 64px;outline: none;}
+/*第3点结束*/
+
+
+
+/*第4点开始*/
+.floor-5{height: 499px;margin-bottom: 33px;}
+.floor-5>.safe{position: relative; color: #fffbe7;}
+.floor-5k1{background: #7a5ae3;height: 100%;width: 1000px;position: absolute;left: 100px;bottom: 0;border-radius: 0 0 12px 12px;}
+.floor-5k2{width: 950px;height: 469px;background: #6345cb;position: absolute;left: 25px;top: 0;box-shadow: 0 -2px 2px 0 #8569e7 inset;border-radius: 0 0 12px 12px;}
+#tex{font-size: 24px;position: absolute;left: 48px;top: 47px;}
+.tex-1{position: absolute;left: 48px;top: 95px;}
+.tex-2{position: absolute;left: 48px;top: 131px;}
+.tex-3{position: absolute;left: 48px;top: 167px;}
+.tex-3-1{position: absolute;left: 77px;top: 160px;width: 642px;letter-spacing: 2px;line-height: 34px}
+.tex-4{position: absolute;left: 48px;top: 239px;}
+.tex-5{position: absolute;left: 48px;top: 275px;}
+.tex-5-1{position: absolute;left: 77px;top: 270px;width: 660px;letter-spacing: 2px;line-height: 34px}
+.tex-6{position: absolute;left: 48px;bottom: 104px;}
+.tex-7{position: absolute;left: 48px;bottom: 68px;}
+.tex-8{position: absolute;left: 75px;bottom: 36px;color: #a084ff;font-size: 14px}
+/*第4点结束*/
+
+
+/*footer层开始*/
+footer{height: 100px;background-color: #293146;}
+footer>.safe{position: relative;}
+.footertex1{font-size: 24px;color: #ffffff;position: absolute;left: 100px;top: 38px;}
+.text{width: 190px;height: 40px;border-radius: 6px;border-style:none;color: #f65c26;font-size: 22px;position: absolute;left: 210px;top: 30px;padding-left: 18px;outline: none;}
+.footertex2{font-size: 22px;color: #cccccc; position: absolute;left: 371px;top: 34px;z-index:999;}
+.footertex3{font-size: 24px;color: #ffffff;position: absolute;left: 442px;top: 38px;}
+.text2{width: 190px;height: 40px;border-radius: 6px;border-style:none;color: #f65c26;font-size: 22px;position: absolute;right: 462px;top: 30px;padding-left: 18px;outline: none;}
+.footertex4{font-size: 22px;color: #cccccc; position: absolute;right: 468px;top: 34px;z-index:999;}
+.button{width: 221px;height: 40px;color: #f65c26;background: #fef202;border-style: none;border-radius: 6px;font-size: 25px;position: absolute;right: 160px;top: 30px;outline: none;}
+.footertex5{font-size: 14px;color: #ffffff;opacity: 0.2;position: absolute;right: 502px;bottom: 6px;}/*半透明度的设置或用color:rgba(0,0,0,0.2)*/
+.footertex6{color: #ffffff;font-size: 14px;position: absolute;right: 211px;bottom: 6px;}
+.footertex6-1{color: #f65c26;}
+
+/*{*/
+    /*background-attachment:fixed;*/
+/*;}*/
+/*footer层结束*/
+.cloud1{position: absolute;left: 0;top: 866px;}
+.cloud2{position: absolute;right: 0;top: 2312px;}
+.ball1{position: absolute;left: 0;top: 1670px;}
+.ball2{position: absolute;right: 0;top: 796px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
